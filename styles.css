@@ -1,0 +1,84 @@
+html,body{
+    height:100%;
+}
+h1{
+    font-family: 'Londrina Solid', cursive;
+    font-weight:900;
+    text-align:center;
+    font-size:100px;
+    color:#282828;
+    background-color:#fff;
+    width:610px;
+    margin:30px auto;
+
+}
+
+body{
+    background: rgb(62,62,62);
+    background: linear-gradient(180deg, rgba(62,62,62,1) 0%, rgba(40,40,40,1) 100%);;
+    text-align:center;
+    margin:0;
+}
+
+.Search{
+    width:400px;
+    height:30px;
+    border-style: none;
+    margin:30 auto;
+    font-family:helvetica;
+    padding:1px 0 1px 10px;
+
+}
+
+.Submit{
+    width:100px;
+    height:32px;
+    border:none;
+    border-style: none;
+}
+
+/*
+=================================================
+BOOKMARKS
+=================================================
+*/
+.bookmarks{
+    padding:30px;
+ }
+ .bookmarks a{
+    font-size:40px;
+    margin:0 20px;
+    color:#fff;
+    transition:.15s;
+    vertical-align: top;
+    text-decoration:none;
+ }
+ .bookmarks a:hover{
+    font-size:45px;
+    position:relative;
+ }
+ 
+
+
+/*
+=================================================
+CLOCK
+=================================================
+*/
+
+#clock{
+    font-size:50px;
+    font-family:sans-serif;
+    color:#FFF;
+    position:absolute;
+    bottom:10px;
+    text-align:center;
+    width:100%;
+    box-sizing:border-box;
+}
+
+
+.SS{
+margin:0 auto;
+width:100%;
+}
